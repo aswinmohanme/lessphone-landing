@@ -516,6 +516,10 @@ img {
   margin-top: 0.25rem;
 }
 
+.mt-3{
+  margin-top: 0.75rem;
+}
+
 .mt-4{
   margin-top: 1rem;
 }
@@ -538,6 +542,11 @@ img {
 
 .p-5{
   padding: 1.25rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pr-6{
