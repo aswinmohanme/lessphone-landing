@@ -1,7 +1,7 @@
 module.exports = {
   theme: {
       fontFamily: {
-          'sans': ['"Cooper Hewitt"', 'sans-serif']
+          'sans': ['"Rubik"', 'sans-serif']
       }
   },
   variants: {},
