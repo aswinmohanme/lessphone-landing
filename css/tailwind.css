@@ -1,4 +1,17 @@
 /*Tailwind directives*/
 @tailwind base;
+
+@font-face {
+    font-family: Cooper Hewitt;
+    font-weight: 400;
+    src: url(../assets/fonts/CooperHewitt-Book.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Cooper Hewitt;
+    font-weight: 700;
+    src: url(../assets/fonts/CooperHewitt-Bold.otf) format("opentype");
+}
+
 @tailwind components;
 @tailwind utilities;

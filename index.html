@@ -1,21 +1,38 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <title>LessPhone</title>
 
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-        <link href="public/build/tailwind.css" rel="stylesheet"/>
-    </head>
-    <body class="font-sans bg-gray-100 p-4 text-gray-900">
-        <nav class="">
-            <p class="text-md">LessPhone</p>
-        </nav>
+<head>
+    <meta charset="UTF-8" />
+    <title>LessPhone</title>
 
-        <section class="mt-16">
-            <h1 class="text-3xl font-bold leading-tight">Stop using your phones so much.</h1>
-            <p class="text-gray-700 mt-2">Use LessPhone, a minimalist Android launcher designed to help reduce your phone use.</p>
-            <a class="p-2 bg-gray-900 mt-6 inline-block rounded text-gray-100 uppercase text-sm font-semibold shadow-md">Play Store</a>
-        </section>
-    </body>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link href="public/build/tailwind.css" rel="stylesheet" />
+</head>
+
+<body class="font-sans bg-gray-100 text-gray-900 text-lg antialiased mx-auto max-w-3xl">
+    <nav class="p-5">
+        <a class="text-md">LessPhone</a>
+    </nav>
+
+    <section class="p-5 mt-16">
+        <h2 class="text-3xl font-bold leading-tight">Stop using your phones so much.</h2>
+        <p class="text-gray-700 mt-1">Use LessPhone, a minimalist Android launcher designed to help reduce your phone use.</p>
+        <a class=" shadow-lg w-40 inline-block mt-3" href="https://play.google.com/store/apps/details?id=me.aswinmohan.nophone&hl=en_IN">
+            <img class="w-full cover" alt="Google Play Badge" src="./assets/img/google-play-badge.png" />
+        </a>
+    </section>
+
+    <section class="bg-gray-900 mt-16 p-4">
+        <iframe class="w-full h-48" src="https://www.youtube.com/embed/msULur7oQho?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <footer class="mt-16 p-4 justify-between flex text-gray-700">
+        <a class="text-md" href="https://play.google.com/store/apps/details?id=me.aswinmohan.nophone&hl=en_IN">get it on play store</a>
+        <div class="inline-block flex">
+            <a href="https://twitter.com/lessphone" class="pr-6">twitter</a>
+            <a href="https://www.producthunt.com/posts/lessphone-launcher">product hunt</a>
+        </div>
+    </footer>
+</body>
+
 </html>
