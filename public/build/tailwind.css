@@ -606,15 +606,15 @@ video {
 
   font-weight: 400;
 
-  src: url(../assets/fonts/CooperHewitt-Book.otf) format("opentype");
+  src: url(/assets/fonts/CooperHewitt-Book.otf) format("opentype");
 }
 
 @font-face {
   font-family: Cooper Hewitt;
 
-  font-weight: 700;
+  font-weight: 600;
 
-  src: url(../assets/fonts/CooperHewitt-Bold.otf) format("opentype");
+  src: url(/assets/fonts/CooperHewitt-Semibold.otf) format("opentype");
 }
 
 .container {
