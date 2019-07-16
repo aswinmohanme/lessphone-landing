@@ -1,0 +1,11 @@
+{
+  "name": "LessPhone Landing Page",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "aswinmohanme",
+  "license": "ISC"
+}
