@@ -1,9 +1,11 @@
 {
-  "name": "LessPhone Landing Page",
+  "name": "lessphone-landing",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+    "scripts": {
+        "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+    },
   "keywords": [],
   "author": "aswinmohanme",
   "license": "ISC",
